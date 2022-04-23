@@ -1,0 +1,593 @@
+/* Core styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Larsseit, Larsseit-Medium, Larsseit-Bold;
+}
+
+@font-face {
+    font-family: Larsseit-Medium;
+    src: url(../fonts/Larsseit-Medium.ttf);
+}
+
+@font-face {
+    font-family: Larsseit-Bold;
+    src: url(../fonts/Larsseit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Larsseit-light;
+    src: url(../fonts/Larsseit-Light.ttf);
+}
+
+@font-face {
+    font-family: Larsseit-ExtraBold;
+    src: url(../fonts/Larsseit-ExtraBold.ttf);
+}
+
+.clearfix{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    padding: 27px 0 0 179px;
+    display: flex;
+    position: relative;
+}
+
+.nav__brand{
+    color: #62D0DF;
+    font-size: 1.6rem;
+    letter-spacing: 0.035em;
+}
+
+.nav-items{
+    display: flex;
+    column-gap: 2.5rem;
+    margin-left: 26.75rem;
+    padding-top: 0.5rem;
+}
+
+.nav-item a{
+    color: #22356F;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.nav-buttons{
+    margin-left: 9rem;
+    margin-top: -0.625rem;
+}
+
+.nav__action{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #62D0DF;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.035rem;
+}
+
+/* Main section styles */
+
+.main > div{
+    float: left;
+}
+
+.main-background{
+    background: #F4F9E2;
+    position: absolute;
+    width: 1117px;
+    height: 890px;
+    top: -50px;
+    z-index: -1;
+}
+
+.main-info{
+    width: 80%;
+    padding-top: 150px;
+    padding-left: 179px;
+}
+
+.main-info__subtitle{
+    color: #62D0DF;
+    font-size: 1.6rem;
+    letter-spacing: 0.035rem;
+}
+
+.main-info__title{
+    color: #22356F;
+    font-size: 3rem;
+    line-height: 3.3125rem;
+    font-family: Larsseit-Bold;
+    padding-top: 2rem;
+}
+
+.main-info__description{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8125rem;
+    padding-top: 4rem;
+    color: #22356F;
+    letter-spacing: 0.06rem;
+}
+
+.main-buttons{
+    padding-top: 40px;
+}
+
+.main__action-one{
+    width: 150px;
+    height: 50px;
+    background: #F9B640;
+    border: none;
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.main__action-two{
+    background: transparent;
+    border: none;
+    margin-left: 30px;
+    color: #FAB63E;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+
+}
+.main-image{
+    width: 20%;
+    position: relative;
+}
+
+.main-image__box{
+    width: 807px;
+    height: 545px;
+    background: #EDFDFF;
+    border-radius: 312px;
+    position: absolute;
+    transform: rotate(-55deg);
+    left: -250px;
+    top: -120px;
+    z-index: -1;
+}
+
+.main-image__img{
+    position: absolute;
+    width: 807.71px;
+    height: 544.93px;
+    left: -280px;
+    border-radius: 312.159px;
+    transform: rotate(-25deg);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.main-image__img img{
+    transform: rotate(25deg);
+    position: absolute;
+    top: -80px;
+}
+
+
+/* Why info section styles */
+
+.why{
+    padding-top: 5rem;
+}
+
+.why > div{
+    float: left;
+}
+
+.why-info{
+    padding-top: 150px;
+    padding-left: 179px;
+    width: 60%;
+    height: 604px;
+    background: #62D0DF;
+}
+
+.why-info__title{
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    letter-spacing: 0.006rem;
+}
+
+.why-info__description{
+    padding: 80px 0;
+    color: #FFFFFF;
+    line-height: 2.1875rem;
+    letter-spacing: 0.03rem;
+    font-size: 1.3rem;
+    font-family: Larsseit-Light;
+}
+
+.why-info__description b{
+    font-size: 1.6rem;
+    font-family: Larsseit-Bold;
+}
+
+/* About Us section styles */
+
+.about-us{
+    padding-top: 150px;
+    display: flex;
+    padding-left: 93px;
+}
+
+.about-us__left{
+    letter-spacing: 0.06rem;
+    color: #22356F;
+    text-transform: uppercase;
+}
+
+.about-us__description{
+    color: #22356F;
+    font-size: 1.6rem;
+    letter-spacing: 0.005rem;
+    padding-left: 300px;
+    line-height: 2.125rem;
+    font-family: Larsseit-Medium;
+}
+
+.about-us__subtitle{
+    color: rgba(34, 53, 111, 0.5);
+    text-align: center;
+    letter-spacing: 0.06rem;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* We can section styles */
+
+.we-can__items{
+    display: flex;
+}
+
+.we-can__item{
+    width: 33%;
+}
+
+.we-can__box-first{
+    background-color: #FFE2DE;
+    height: 360px;
+}
+
+.we-can__box-second{
+    background-color: #C4E769;
+    height: 360px;
+}
+
+.we-can__box-third{
+    background-color: #62D0DF;
+    height: 360px;
+}
+
+.we-can__box-fourth{
+    background-color: #0052C1;
+    height: 360px;
+}
+
+.inline-box{
+    width: 255px;
+    height: 72px;
+    box-shadow: inset 0px -1px 0px #FFFFFF;
+    margin-left: 3.2rem;
+}
+
+.we-can__item ul,
+.health__box ul
+{
+    color: #E9B730FF;
+    font-size: 2.5rem;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+}
+
+.we-can__item-text{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: Larsseit-light;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+
+/* Health section styles */
+
+.health{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 120px;
+}
+
+.health__box{
+    width: 33.33%;
+    padding-left: 20px;
+    height: 480px;
+}
+
+.inline-box2{
+    width: 350px;
+    height: 100px;
+    box-shadow: inset 0px -1px 0px #FFFFFF;
+    margin-left: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.box-one{
+    background: #22356F;
+}
+
+.box2{
+    background: #0052C1;
+}
+
+.box3{
+    background-image: url(../images/joanna-kosinska-340748.png);
+}
+
+.box4{
+    background: #62D0DF;
+}
+
+.box5{
+    background: #DEE1FF;
+}
+
+.box6{
+    background: #8F00FF;
+}
+
+
+/* Plans section setyles */
+
+.plans{
+    padding-top: 100px;
+    width: 103%;
+}
+
+.plan-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.plan-item{
+    width: 33.33%;
+    padding: 20px 80px;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+.plan-item__title{
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: -0.03rem;
+    color: #22356F;
+}
+
+.plan-item__description{
+    line-height: 1.6875rem;
+    padding-top: 2rem;
+    letter-spacing: -0.03rem;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+/* Know section styles */
+
+.know > div{
+    float: left;
+}
+
+.know-image{
+    transform: scaleY(1.1);
+}
+
+.know-info{
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.know-info__subtitle{
+    text-transform: uppercase;
+    color: #22356F;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+}
+
+.know-info__title{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.80rem;
+    letter-spacing: 0.01rem;
+    color: #22356F;
+    padding-top: 250px;
+}
+
+.know-info__thrivetalk{
+    color: #62D0DF;
+}
+
+.know-info__action{
+    width: 518px;
+    height: 43px;
+    margin-top: 11rem;
+    border: none;
+    background: transparent;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #FAB63E;
+    text-transform: uppercase;
+}
+
+
+/* Contact Us section styles */
+
+.contact{
+    display: flex;
+    width: 1440px;
+    height: 800px;
+}
+
+.contact-image{
+    float: right;
+}
+
+.contact-info{
+    background: #22356F;
+    width: 80%;
+    float: right;
+}
+
+.contact-info__in{
+    padding: 100px 200px;
+}
+
+.contact-info__subtitle{
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+}
+
+.contact-info__title{
+    color: #FFFFFF;
+    font-size: 4rem;
+    letter-spacing: -0.01rem;
+    font-weight: 700;
+    padding-top: 13.75rem;
+}
+
+.contact-info__description{
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    font-weight: 100;
+    letter-spacing: -0.005rem;
+    padding-top: 2.5rem;
+}
+
+.contact-info__action{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #62D0DF;
+    margin-top: 6rem;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+}
+
+/* Contact Information section styles */
+
+.contact-information > div{
+    float: left;
+}
+
+.contact-information__image img{
+    display: block;
+}
+
+.con-items{
+    display: flex;
+    padding: 120px 40px 0;
+    column-gap: 6rem;
+}
+
+.con-item__title{
+    color: #22356F;
+    letter-spacing: -0.006rem;
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+
+.con-item__description{
+    font-weight: 400;
+    color: rgba(34, 53, 111, 0.5);
+    letter-spacing: -0.006rem;
+    line-height: 1.5625rem;
+    padding-top: 2rem;
+}
+
+.con-item__description a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #34c9dd;
+}
+
+/* Footer section styles */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #62D0DF;
+    color: #FFFFFF;
+    font-size: 0.87rem;
+    letter-spacing: -0.006rem;
+    font-weight: 700;
+    padding: 35px 200px;
+}
+
+.telegram-link{
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+/* Info section styles */
+
+/* .info-section{
+    width: 1440px;
+    height: 800px;
+    background: #F9B640;
+    position: relative;
+    margin-bottom: 100px;
+
+} */
+
+
+
+
+/* MEDIA SECTION  */
+
+@media  only screen and (max-width:1400px) {
+
+    .main-image{
+        transform: scale(0.8);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
